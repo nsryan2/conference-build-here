@@ -18,10 +18,6 @@ It is recommended that you start by following the issue assigned to you specific
 
 Relatively little knowledge of coding is required to complete this task, a CS 101 (and a little bit of google) knowledge is sufficient to operate within the site as it currently exists. This is intentional, as each committee memember is expected to contribute information specific to their site where relavent.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 *html and css
