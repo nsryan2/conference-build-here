@@ -100,3 +100,5 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+
+The Readme is adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2.
