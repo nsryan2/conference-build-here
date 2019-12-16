@@ -1,6 +1,6 @@
 <a href="https://ansuiuc.github.io/conference-build-here/index.html">Site Link</a>
 <hr>
-DISCLAIMER: The site will be updated up until the conference. Subsequent to the event there is no guarentee that the site or information therein will be accurate or reliable.
+DISCLAIMER: The site will be updated up until the conference. Subsequent to the event there is no guarantee that the site or information therein will be accurate or reliable.
   <hr>
   
   # ANS 2021 SC Homepage
@@ -9,19 +9,19 @@ This repository is the location of the ANS 2021 Student Conference Homepage, hos
 
 ## Getting Started for Committee Members
 
-All changes to the source repository must be approved. As a result, members will fork the repository to make additions that will then be approved by the chairs.
+All changes to the source repository must be approved. As a result, members will fork the repository to make additions that then need to be approved before they are committed to the ansuiuc repository.
 
 ### Prerequisites
 
-To make edits to a fork of this file all you need is a github account, and intraductory (following the instructions for the contact us page can serve as a good introduction) knowledge of html and css. There are java script aspects, and a few other small bits outside of these two languages, but they should not limit a member's ability to contribute to the code.
+To make edits to a fork of this file all you need is a GitHub account, and introductory (following the instructions for the contact us page can serve as a good introduction) knowledge of html and CSS. There are java script aspects, and a few other small bits outside of these two languages, but they should not limit a member's ability to contribute to the code.
 
-It is recommended that you start by following the issue assigned to you specifically which prompts you to insert your photo and information into the contact us page of the site. The issue contains relatively detailed instructions as to how this can be done, and there are examples of the intended format already inplace. 
+It is recommended that you start by following the issue assigned to you specifically which prompts you to insert your photo and information into the contact us page of the site. The issue contains relatively detailed instructions as to how this can be done, and there are examples of the intended format already in place. 
 
-Relatively little knowledge of coding is required to complete this task, a CS 101 (and a little bit of google) knowledge is sufficient to operate within the site as it currently exists. This is intentional, as each committee memember is expected to contribute information specific to their site where relavent.
+Relatively little knowledge of coding is required to complete this task, a CS 101 (and a little bit of google) knowledge is sufficient to operate within the site as it currently exists. This is intentional, as each committee member is expected to contribute information specific to their site where relevant.
 
 ## Built With
 
-*html and css
+*html and CSS
 *java script
 
 ## Author
