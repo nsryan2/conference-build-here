@@ -1,4 +1,5 @@
-# This repository holds the ANS 2021 Student Conference Website
+# ANS 2021 Student Conference Website
+This repository holds the ANS 2021 Student Conference Website.
 
 # Using Git to Make Website Edits
 This guide will show you how to make edits to the ANS Student Conference Website, 
