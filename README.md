@@ -32,7 +32,7 @@ If you follow these two rules you will avoid a lot of headaches in the future.
 	* Add your image to the `./img/members/` folder. If your name is Jane Doe you will add `doej.png`
 	* Open the file `contact_us.html` and add your information to that file. 
 	* `git add img/members/doej.png`
-	* `git commit -m "adds image of jane doe`
+	* `git commit -m "adds image of jane doe"`
 	* `git add contact_us.html`
 	* `git commit -m "adds jane doe information`
 
@@ -55,5 +55,4 @@ Solution:
 This problem arose because there was no `Gemfile`. I learned about Gemfiles from this [website](https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/).
 
 `Gemfile.lock` is a built file and should not be included in a commit. 
-
 
