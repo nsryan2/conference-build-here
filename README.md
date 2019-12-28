@@ -35,7 +35,7 @@ If you follow these two rules you will avoid a lot of headaches in the future.
 	* `git add img/members/doej.png`
 	* `git commit -m "adds image of jane doe"`
 	* `git add contact_us.html`
-	* `git commit -m "adds jane doe information`
+	* `git commit -m "adds jane doe information"`
 
 
 ### Errors
