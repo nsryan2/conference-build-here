@@ -55,4 +55,3 @@ Solution:
 This problem arose because there was no `Gemfile`. I learned about Gemfiles from this [website](https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/).
 
 `Gemfile.lock` is a built file and should not be included in a commit. 
-
