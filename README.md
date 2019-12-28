@@ -1,7 +1,9 @@
 # This repository holds the ANS 2021 Student Conference Website
 
 # Using Git to Make Website Edits
-This guide will show you how to make edits to the ANS Student Conference Website, specifically. It should also give you a sense of how to use Git and GitHub for version control, a very useful skill. 
+This guide will show you how to make edits to the ANS Student Conference Website, 
+specifically. It should also give you a sense of how to use `git` and GitHub for version 
+control, a very useful skill. 
 
 ## Two Rules of using GitHub
 1. **Do not** push to master. 
@@ -53,6 +55,5 @@ Solution:
 This problem arose because there was no `Gemfile`. I learned about Gemfiles from this [website](https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/).
 
 `Gemfile.lock` is a built file and should not be included in a commit. 
-
 
 
