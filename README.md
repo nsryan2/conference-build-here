@@ -24,10 +24,6 @@ Relatively little knowledge of coding is required to complete this task, a CS 10
 *html and CSS
 *java script
 
-## Author
-
-Nathan Ryan
-
 ## Code of Conduct
 
 ### Our Pledge
