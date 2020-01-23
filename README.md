@@ -54,6 +54,7 @@ This guide borrows heavily from Kathryn Huff's [guide](http://arfc.github.io/man
 	* `git remote add ans git@github.com:ansuiuc/conference-build-here.git`
 	* `git fetch ans`
 	* `git checkout master`
+	* `git merge ans/master`
 	* `git push origin master`
 
 
