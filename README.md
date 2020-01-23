@@ -7,7 +7,11 @@ specifically. It should also give you a sense of how to use `git` and GitHub for
 control, a very useful skill. 
 
 ## Two Rules of using GitHub
-1. **Do not** push to master. 
+1. **Do not** push to master. This means you should always be working in a "branch."
+	* Create a branch with `git branch my-branch` and `git checkout my-branch` or `git checkout -b my-branch`.
+	* Check which branches are available with `git branch -v`
+	* Switch between branches with `git checkout branch-name`
+	* Changes you make will only be contained in a branch if you have done `git checkout branch-name`. 
 2. **Do not** merge your own pull requests. 
 If you follow these two rules you will avoid a lot of headaches in the future.
 
@@ -45,6 +49,13 @@ This guide borrows heavily from Kathryn Huff's [guide](http://arfc.github.io/man
 	* You want to "compare across forks". The `head repository` should be your fork and the comparison branch should be `source`. 
 	* Add a description of your PR. 
 	* Request a review from someone to check your PR and merge it (see rule #2). 
+10. Final touches *after your pull request has been merged*. This will make your fork master branch match the organization master branch. 
+	* `cd conference-build-here`
+	* `git remote add ans git@github.com:ansuiuc/conference-build-here.git`
+	* `git fetch ans`
+	* `git checkout master`
+	* `git push origin master`
+
 
 
 ### Errors
