@@ -2,89 +2,169 @@
 layout: default
 title: Travel
 ---
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row web-header">
-            <div class="col-md-12 col-md-offset-1 header-text">
-                <h1>2021 ANS Student Conference</h1>
-                <h2>Saving the World One Atom at a Time</h2>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="content">
-                    <h1>ANS Student Conference 2021 Travel Arrangements</h1>
-                    <p>Travel Arrangements Coming Soon!!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="content">
+                <h1>ANS Student Conference 2022 Travel Arrangements</h1>
+                <p></p>
+                <h2>Transportation</h2>
+                <h3>Local Airports</h3>
+                <style>
+                    * {
+                        box-sizing: border-box;
+                    }
 
-                    <h3>Hotel Information and Booking</h3>
-                    <p>Hotel Website and contact information coming soon!!</p>
+                    .column {
+                        float: left;
+                        width: 33.33%;
+                        padding: 5px;
+                    }
 
-                    <h3>Local Airports</h3>
-                    <a href="https://www.flychicago.com/ohare/pages/default.aspx">O'Hare International Airport</a>
-                    <p></p>
-                    <img src="img/Ohare.png" alt="O'hare" width="50%">
-                    <p></p>
-                    <a href="https://www.flychicago.com/midway/home/pages/default.aspx">Chicago Midway International Airport</a>
-                    <p></p>
-                    <img src="img/Midway.png" alt="Midway" width="50%">
-                    <p></p>
-                    <a href="https://iflycu.com/">Willard Airport</a>
-                    <p></p>
-                    <img src="img/Willard.png" alt="Willard" width="50%">
+                    /* Clearfix (clear floats) */
+                    .row::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
 
-                    <h3>Local Bus Companies</h3>
-                    <a href="https://peoriacharter.com/">Peoria Charter</a>
-                    <p></p>
-                    <img src="img/PeoriaCharter.jpeg" alt="PeoriaCharter" width="50%">
-                    <hr>
-                    <h3>Travel Assistance</h3>
-                    <p>The travel assistance program seeks to limit the cost of students attending the ANS Student Conference, and provide support to those who might be dettered by the cost associated with travel. There is no guarantee that the Student Conference will be able to provide complete travel reimbursement.</p>
-                    <a href="travel_assistance.pdf" download>Travel Assistance Form</a>
-                    <hr>
-                    <h3>Travel Assistance Instructions</h3>
-                        <ol>
-                            <li>Download the assistance form and fill it out with all the members of your chapter that attended the conference</li>
-                            <li>Compile all eligible reciepts</li>
-                            <li>Scan all the documents into a SINGLE .pdf document</li>
-                            <li>Structure the document so that no more than one person’s receipts are on a single page (Multiple pages for a single person are acceptable)</li>
-                            <li>Email one Complete application to <a href="mailto:gavind2@illinois.edu?">gavind2@illinois.edu</a> by April 29th, 2021</li>
-                    </ol>
-                    <hr>
-                    <h3>Travel Assistance Stipulations</h3>
-                        <ul>
-                            <li>Not sure which to include here, the others were pretty cut and dry</li>
-                        </ul>
-                        <hr>
-                    <h3>Examples of What May be Covered:</h3>
-                    <ul>
-                        <li>Airline tickets</li>
-                        <li>Bus fees, including driver fees or individual fares</li>
-                        <li>Gasoline, providing proper receipts</li>
-                    </ul>
-                    <hr>
-                    <h3>Examples of What Will Not be Covered:</h3>
-                    <ul>
-                        <li>Food</li>
-                        <li>Lodging</li>
-                        <li>Non-student travel expenses</li>
-                        <li>Rebooking or cancellation fees</li>
-                        <li>Registration fees</li>
-                    </ul>
-                    <hr>
-                    <p>With any questions or concerns, please contact our Hotels and Transportation Coordinator Gavin Davis at</p>
-                    <a href="mailto:gavind2@illinois.edu?cc= !!!insert conference email!!!, nsryan2@illinois.edu, &subject= Travel Queries">Send Email</a>
+                    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+                    @media screen and (max-width: 500px) {
+                        .column {
+                            width: 100%;
+                        }
+                    }
+
+                    figcaption {
+                        background-color: white;
+                        color: white;
+                        font-style: italic;
+                        padding: 2px;
+                        text-align: center;
+                    }
+                </style>
+
+                <div class="row">
+                    <div class="column">
+                        <figure>
+                            <a href="https://www.flychicago.com/ohare/pages/default.aspx"><img src="img/Ohare.png"
+                                    alt="O'hare" width="100%"></a>
+                            <figcaption><a href="https://www.flychicago.com/ohare/pages/default.aspx">O'Hare Airport</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <a href="https://www.flychicago.com/midway/home/pages/default.aspx"><img
+                                    src="img/Midway.png" alt="Midway" width="100%"></a>
+                            <figcaption><a href="https://www.flychicago.com/midway/home/pages/default.aspx">Midway
+                                    Airport</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <a href="https://iflycu.com/"><img src="img/Willard.png" alt="Willard" width="100%"></a>
+                            <figcaption><a href="https://iflycu.com/">Willard Airport</a></figcaption>
+                        </figure>
+                    </div>
                 </div>
+
+                <h3>Local Bus Companies</h3>
+                <div class="row">
+                    <div class="column">
+                        <figure>
+                            <a href="https://peoriacharter.com/"><img src="img/PeoriaCharter.jpeg" alt="PeoriaCharter"
+                                    width="100%"></a>
+                            <figcaption><a href="https://peoriacharter.com/">Peoria Charter</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <a><img src="img/space.png" alt="spacing" width="100%"></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+
+                            <a><img src="img/space.png" alt="spacing" width="100%"></a>
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <hr>
+                
+                <h3>Hotel Information and Booking</h3>
+                <p></p>
+                <p>For more details about Booking and the hotel, check out our dedicated <a href="hotel_information.html">Hotel
+                    Information</a> page.</p>
+                <hr>
+                
+                <h3>Travel Assistance</h3>
+                <p>The travel assistance program seeks to limit the cost of students attending the ANS Student
+                    Conference, and provide support to those who might be dettered by the cost associated with travel.
+                    There is no guarantee that the Student Conference will be able to provide complete travel
+                    reimbursement. If you attend a school without an ANS chapter you can still apply for assistance. As
+                    with schools that have an ANS chapter, please compile all travel expenses for your school into one
+                    assistance form. If you are unsure if an expense item will be covered, consult the examples below and,
+                    if you are still unsure, feel free to contact our Hotel and Transportation Coordinator.</p>
+                <a href="travel_assistance.pdf" download>Travel Assistance Form</a>
+                <hr>
+                <h3>Travel Assistance Instructions</h3>
+                <ol>
+                    <li>Download the assistance form and fill it out with all the members of your chapter that attended
+                        the conference</li>
+                    <li>Compile all eligible reciepts</li>
+                    <li>Scan all the documents into a SINGLE .pdf document</li>
+                    <li>Structure the document so that no more than one person’s receipts are on a single page (Multiple
+                        pages for a single person are acceptable)</li>
+                    <li>Email one Complete application to <a
+                            href="mailto:gavind2@illinois.edu?">gavind2@illinois.edu</a> by April 29th, 2022</li>
+                </ol>
+                <hr>
+                <h3>Travel Assistance Stipulations</h3>
+                <ul>
+                    <li>Not sure which to include here, the others were pretty cut and dry</li>
+                    <ul>Some examples:
+                        <li>To be eligable for assistance, all students must have stayed in the (**insert hotel**)</li>
+                        <li>Only one travel assistance check will be awarded per student section. Please compile all expenses
+                            in a travel assistance form, and submit according to the instructions above</li>
+                        <li>For international travel, the highest amount awarded will be capped at (**insert limit**)</li>
+                        <li>No amount is guarenteed in assistance, the final amount will be dependent by the final
+                            fundraising and the number of eligible applicants. We will do our best to help as many student
+                            groups as we can.</li>
+                    </ul>
+                </ul>
+                <hr>
+                
+                <h3>Examples of What May be Covered:</h3>
+                <ul>
+                    <li>Airline tickets</li>
+                    <li>Bus fees, including driver fees or individual fares</li>
+                    <li>Gasoline, providing proper receipts</li>
+                </ul>
+                <hr>
+                <h3>Examples of What Will Not be Covered:</h3>
+                <ul>
+                    <li>Food</li>
+                    <li>Lodging</li>
+                    <li>Non-student travel expenses</li>
+                    <li>Rebooking or cancellation fees</li>
+                    <li>Registration fees</li>
+                </ul>
+                <hr>
+                <p>With any questions or concerns, please contact our Hotels and Transportation Coordinator Gavin Davis
+                    at</p>
+                <a
+                    href="mailto:gavind2@illinois.edu?cc= !!!insert conference email!!!, nsryan2@illinois.edu, &subject= Travel Queries">Send
+                    Email</a>
             </div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 </body>
 <hr>
